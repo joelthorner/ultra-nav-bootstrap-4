@@ -1,3 +1,4 @@
+/* miniPlugin js */
 var snippets = {
 
     init: function( settings ) {
@@ -16,21 +17,16 @@ var snippets = {
     }
 };
 
+/* init each navbar 'snippet' */
 
 snippets.init({
-    trigger : $('#search-trigger'),
-    element : $('#search-form'),
-    closer : $('#search-form .closer')
+    trigger : $('#search-trigger'),     // button trigger open the snippet
+    element : $('#search-form'),        // snippet container
+    closer  : $('#search-form .closer') // close node for close snippet
 });
 
 snippets.init({
     trigger : $('#extra-info-trigger'),
     element : $('#extra-info'),
-    closer : $('#extra-info .closer')
+    closer  : $('#extra-info .closer')
 });
-/*
-myFeature.init({
-    foo: "bar"
-});
-
-myFeature.readSettings(); // { foo: "bar" }*/
