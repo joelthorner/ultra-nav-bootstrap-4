@@ -1,12 +1,12 @@
-# [ultra-nav-bootstrap-4]
+# ultra-nav-bootstrap-4
 
 Hidden snippets into navbar, (search form, html content, etc) - Bootstrap 4
 
 Demo & Doc:
-cool-change-cols(http://joelthorner.com/snippets/ultra-nav-bootstrap-4)
+<a href="http://joelthorner.com/snippets/ultra-nav-bootstrap-4" target="_blank">ultra-nav-bootstrap-4</a>
 
-Website (for more)
-joelthorner.com(http://joelthorner.com/)
+My website
+<a href="http://joelthorner.com/" target="_blank">joelthorner.com</a>
 
 ## Contributing
 
