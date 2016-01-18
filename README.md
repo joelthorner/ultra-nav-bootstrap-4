@@ -1,5 +1,3 @@
-<snippet>
-  <content><![CDATA[
 # ${1:ultra-nav-bootstrap-4}
 
 Hidden snippets into navbar, (search form, html content, etc) - Bootstrap 4
@@ -25,6 +23,3 @@ TODO: Bootstrap 4 alpha 2
 ## License
 
 MIT
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
