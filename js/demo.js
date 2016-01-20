@@ -1,19 +1,28 @@
 /* miniPlugin js */
 var snippets = {
 
+    navbarCollapseBtn : $('#collapser'),
+
     init: function( settings ) {
         snippets.bindEvents(settings);
     },
 
     bindEvents: function(s) {
         s.trigger.on('click', function(event) {
+            snippets.closeExpandedNavbar();
             s.element.removeClass('closed');
             s.element.addClass('open');
         });
         s.closer.on('click', function(event) {
+            snippets.closeExpandedNavbar();
             s.element.removeClass('open');
             s.element.addClass('closed');
         });
+    },
+
+    closeExpandedNavbar : function(){
+        if(!snippets.navbarCollapseBtn.hasClass('collapsed')) 
+            snippets.navbarCollapseBtn.click();
     }
 };
 
